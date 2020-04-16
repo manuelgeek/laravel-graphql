@@ -59,6 +59,8 @@ mutation {
 ```
 
 ### 2. Login
+
+http://localhost:8000/graphql/auth
 #### Request
 ```
 mutation {
@@ -89,6 +91,8 @@ mutation {
 ```
 
 ### 3. Get Bits
+
+http://localhost:8000/graphql/auth
 
 #### Request 
 ```
