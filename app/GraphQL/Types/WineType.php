@@ -7,7 +7,7 @@ use App\Wine;
 use GraphQL\Type\Definition\Type;
 use Rebing\GraphQL\Support\Type as GraphQLType;
 
-class WineTypes extends GraphQLType
+class WineType extends GraphQLType
 {
     protected $attributes = [
         'name' => 'Wine',
@@ -15,7 +15,7 @@ class WineTypes extends GraphQLType
         'model' => Wine::class
     ];
 
-    public function fields()
+    public function fields(): array
     {
         return [
             'id' => [

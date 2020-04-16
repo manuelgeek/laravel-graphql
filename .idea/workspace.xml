@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b6bd0447-7e85-48a5-abd6-30040c83ac06" name="Default Changelist" comment="" />
+    <list default="true" id="b6bd0447-7e85-48a5-abd6-30040c83ac06" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/GraphQL/Queries/WineQuery.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/GraphQL/Queries/WineQuery.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/GraphQL/Queries/WinesQuery.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/GraphQL/Queries/WinesQuery.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/GraphQL/Types/WineTypes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/GraphQL/Types/WineType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/graphql.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/graphql.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +21,9 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -113,6 +125,9 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1acib9YIgYlvytRcfgcCT3WVu7u" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -122,8 +137,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MaishaBoda" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -160,7 +176,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587041351039</updated>
-      <workItem from="1587041354332" duration="5433000" />
+      <workItem from="1587041354332" duration="12296000" />
     </task>
     <servers />
   </component>
@@ -168,9 +184,25 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="458" y="237" width="451" height="315" key="NewPhpClassDialog" timestamp="1587048229686">
+    <state x="370" y="25" width="605" height="739" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587050155295">
       <screen x="0" y="25" width="1366" height="743" />
     </state>
-    <state x="458" y="237" width="451" height="315" key="NewPhpClassDialog/0.25.1366.743@0.25.1366.743" timestamp="1587048229686" />
+    <state x="370" y="25" width="605" height="739" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.25.1366.743@0.25.1366.743" timestamp="1587050155295" />
+    <state x="481" y="211" width="393" height="366" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1587051840025">
+      <screen x="0" y="25" width="1366" height="743" />
+    </state>
+    <state x="481" y="211" width="393" height="366" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.25.1366.743@0.25.1366.743" timestamp="1587051840025" />
+    <state x="519" y="211" width="318" height="366" key="FileChooserDialogImpl" timestamp="1587050876718">
+      <screen x="0" y="25" width="1366" height="743" />
+    </state>
+    <state x="519" y="211" width="318" height="366" key="FileChooserDialogImpl/0.25.1366.743@0.25.1366.743" timestamp="1587050876718" />
+    <state x="458" y="237" width="451" height="315" key="NewPhpClassDialog" timestamp="1587055092455">
+      <screen x="0" y="25" width="1366" height="743" />
+    </state>
+    <state x="458" y="237" width="451" height="315" key="NewPhpClassDialog/0.25.1366.743@0.25.1366.743" timestamp="1587055092455" />
+    <state x="311" y="147" width="734" height="494" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1587050522222">
+      <screen x="0" y="25" width="1366" height="743" />
+    </state>
+    <state x="311" y="147" width="734" height="494" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.25.1366.743@0.25.1366.743" timestamp="1587050522222" />
   </component>
 </project>

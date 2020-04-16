@@ -4,20 +4,20 @@
 namespace App\GraphQL\Queries;
 
 
-use App\Wine;
+use GraphQL;
+use App\Bit;
 use GraphQL\Type\Definition\Type;
-use Rebing\GraphQL\Support\Facades\GraphQL;
 use Rebing\GraphQL\Support\Query;
 
-class WineQuery extends Query
+class BitByIdQuery extends Query
 {
     protected $attributes = [
-        'name' => 'wine',
+        'name' => 'bitById'
     ];
 
     public function type(): Type
     {
-        return GraphQL::type('Wine');
+        return GraphQL::type('Bit');
     }
 
     public function args(): array
@@ -25,7 +25,7 @@ class WineQuery extends Query
         return [
             'id' => [
                 'name' => 'id',
-                'type' => Type::int(),
+                'type' => Type::nonNull(Type::int()),
                 'rules' => ['required']
             ],
         ];
@@ -33,6 +33,10 @@ class WineQuery extends Query
 
     public function resolve($root, $args)
     {
-        return Wine::findOrFail($args['id']);
+        if (!$bit = Bit::find($args['id'])) {
+            throw new \Exception('Resource not found');
+        }
+
+        return $bit;
     }
 }

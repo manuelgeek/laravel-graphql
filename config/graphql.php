@@ -103,6 +103,16 @@ return [
             'query' => [
                 'wine' => App\GraphQL\Queries\WineQuery::class,
                 'wines' => App\GraphQL\Queries\WinesQuery::class,
+                'allBits' => App\GraphQL\Queries\AllBitsQuery::class,
+                'bitById' => App\GraphQL\Queries\BitByIdQuery::class,
+            ],
+            'mutation' => [
+                'signUp' => App\GraphQL\Mutation\SignUpMutation::class,
+                'logIn' => App\GraphQL\Mutation\LogInMutation::class,
+                'newBit' => App\GraphQL\Mutation\NewBitMutation::class,
+                'replyBit' => App\GraphQL\Mutation\ReplyBitMutation::class,
+                'likeBit' => App\GraphQL\Mutation\LikeBitMutation::class,
+                'unlikeBit' => App\GraphQL\Mutation\UnlikeBitMutation::class,
             ]
         ],
     ],
@@ -117,10 +127,10 @@ return [
     // ]
     //
     'types' => [
-        // 'example'           => ExampleType::class,
-        // 'relation_example'  => ExampleRelationType::class,
-        // \Rebing\GraphQL\Support\UploadType::class,
-        'Wine' => App\GraphQL\Types\WineTypes::class,
+        'Wine' => App\GraphQL\Types\WineType::class,
+        'User' => App\GraphQL\Types\UserType::class,
+        'Bit' => App\GraphQL\Types\BitType::class,
+        'Reply' => App\GraphQL\Types\ReplyType::class,
     ],
 
     // The types will be loaded on demand. Default is to load all types on each request
