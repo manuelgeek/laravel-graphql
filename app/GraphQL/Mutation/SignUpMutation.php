@@ -6,6 +6,7 @@ namespace App\GraphQL\Mutation;
 
 use GraphQL\Type\Definition\Type;
 use Illuminate\Support\Facades\Auth;
+use Rebing\GraphQL\Support\Facades\GraphQL;
 use Rebing\GraphQL\Support\Mutation;
 use App\User;
 
@@ -17,7 +18,7 @@ class SignUpMutation extends Mutation
 
     public function type(): Type
     {
-        return Type::string();
+        return GraphQL::type('User');
     }
 
     public function args(): array
@@ -31,7 +32,7 @@ class SignUpMutation extends Mutation
             'email' => [
                 'name' => 'email',
                 'type' => Type::nonNull(Type::string()),
-                'rules' => ['required', 'email', 'unique:users'],
+                'rules' => ['required', 'email', 'unique:users', 'min:6'],
             ],
             'password' => [
                 'name' => 'password',

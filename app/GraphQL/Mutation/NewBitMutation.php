@@ -4,9 +4,12 @@
 namespace App\GraphQL\Mutation;
 
 
+use Closure;
 use GraphQL;
 use App\Bit;
+use GraphQL\Type\Definition\ResolveInfo;
 use GraphQL\Type\Definition\Type;
+use Illuminate\Support\Facades\Auth;
 use Rebing\GraphQL\Support\Mutation;
 
 class NewBitMutation extends Mutation
@@ -31,9 +34,15 @@ class NewBitMutation extends Mutation
         ];
     }
 
-    public function authenticated($root, $args, $currentUser)
+    public function authorize($root, array $args, $ctx, ResolveInfo $resolveInfo = null, Closure $getSelectFields = null): bool
     {
-        return !!$currentUser;
+        // true, if logged in
+        return ! Auth::guest();
+    }
+
+    public function getAuthorizationMessage(): string
+    {
+        return 'You are not authorized to perform this action';
     }
 
     public function resolve($root, $args)

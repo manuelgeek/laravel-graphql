@@ -6,6 +6,7 @@ namespace App\GraphQL\Mutation;
 
 use GraphQL\Type\Definition\Type;
 use Illuminate\Support\Facades\Auth;
+use Rebing\GraphQL\Support\Facades\GraphQL;
 use Rebing\GraphQL\Support\Mutation;
 
 class LogInMutation extends Mutation
@@ -16,7 +17,7 @@ class LogInMutation extends Mutation
 
     public function type(): Type
     {
-        return Type::string();
+        return GraphQL::type('User');
     }
 
     public function args(): array
@@ -44,7 +45,7 @@ class LogInMutation extends Mutation
 
         if($auth = Auth::attempt($credentials)){
             Auth::user()->generateToken();
-            return Auth::user()->api_token;
+            return Auth::user();
         }
 
         if (!$auth) {

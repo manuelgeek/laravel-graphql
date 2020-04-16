@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6bd0447-7e85-48a5-abd6-30040c83ac06" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/GraphQL/Queries/WineQuery.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/GraphQL/Queries/WineQuery.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/GraphQL/Queries/WinesQuery.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/GraphQL/Queries/WinesQuery.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/GraphQL/Types/WineTypes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/GraphQL/Types/WineType.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/GraphQL/Mutation/LogInMutation.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/GraphQL/Mutation/LogInMutation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/GraphQL/Mutation/NewBitMutation.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/GraphQL/Mutation/NewBitMutation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/GraphQL/Mutation/SignUpMutation.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/GraphQL/Mutation/SignUpMutation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/GraphQL/Queries/UserQuery.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/GraphQL/Queries/UserQuery.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/GraphQL/Types/UserType.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/GraphQL/Types/UserType.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/graphql.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/graphql.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +175,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587041351039</updated>
-      <workItem from="1587041354332" duration="12296000" />
+      <workItem from="1587041354332" duration="17761000" />
     </task>
     <servers />
   </component>
@@ -188,10 +187,10 @@
       <screen x="0" y="25" width="1366" height="743" />
     </state>
     <state x="370" y="25" width="605" height="739" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.25.1366.743@0.25.1366.743" timestamp="1587050155295" />
-    <state x="481" y="211" width="393" height="366" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1587051840025">
+    <state x="481" y="211" width="393" height="366" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1587061108007">
       <screen x="0" y="25" width="1366" height="743" />
     </state>
-    <state x="481" y="211" width="393" height="366" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.25.1366.743@0.25.1366.743" timestamp="1587051840025" />
+    <state x="481" y="211" width="393" height="366" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.25.1366.743@0.25.1366.743" timestamp="1587061108007" />
     <state x="519" y="211" width="318" height="366" key="FileChooserDialogImpl" timestamp="1587050876718">
       <screen x="0" y="25" width="1366" height="743" />
     </state>

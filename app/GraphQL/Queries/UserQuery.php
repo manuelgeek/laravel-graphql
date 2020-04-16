@@ -14,7 +14,7 @@ use Rebing\GraphQL\Support\Query;
 class UsersQuery extends Query
 {
     protected $attributes = [
-        'name' => 'Users query'
+        'name' => 'UsersQuery'
     ];
 
     public function type(): Type

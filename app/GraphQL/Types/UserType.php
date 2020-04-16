@@ -34,6 +34,10 @@ class UserType extends GraphQLType
                 'type' => Type::listOf(GraphQL::type('Bit')),
                 'description' => 'The user bits'
             ],
+            'api_token' => [
+                'type' => Type::nonNull(Type::string()),
+                'description' => 'The user api token'
+            ],
             'created_at' => [
                 'type' => Type::string(),
                 'description' => 'Date a was created'
