@@ -92,7 +92,7 @@ mutation {
 
 ### 3. Get Bits
 
-http://localhost:8000/graphql/auth
+http://localhost:8000/graphql
 
 #### Request 
 ```
