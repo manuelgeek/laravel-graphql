@@ -32,12 +32,16 @@ class SignUpMutation extends Mutation
             'email' => [
                 'name' => 'email',
                 'type' => Type::nonNull(Type::string()),
-                'rules' => ['required', 'email', 'unique:users', 'min:6'],
+                'rules' => ['required', 'email', 'unique:users'],
             ],
             'password' => [
                 'name' => 'password',
                 'type' => Type::nonNull(Type::string()),
-                'rules' => ['required'],
+                'rules' => ['required', 'min:6', 'confirmed'],
+            ],
+            'password_confirmation' => [
+                'name' => 'password_confirmation',
+                'type' => Type::nonNull(Type::string()),
             ],
         ];
     }
