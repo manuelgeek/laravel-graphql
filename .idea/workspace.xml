@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b6bd0447-7e85-48a5-abd6-30040c83ac06" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/graphql.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/graphql.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/cors.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/cors.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +172,8 @@
       <updated>1587041351039</updated>
       <workItem from="1587041354332" duration="20457000" />
       <workItem from="1587142152464" duration="1946000" />
-      <workItem from="1587149227764" duration="700000" />
+      <workItem from="1587149227764" duration="1407000" />
+      <workItem from="1587150971369" duration="183000" />
     </task>
     <servers />
   </component>
