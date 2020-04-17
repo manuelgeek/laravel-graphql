@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b6bd0447-7e85-48a5-abd6-30040c83ac06" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/GraphQL/Mutation/SignUpMutation.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/GraphQL/Mutation/SignUpMutation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/cors.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/cors.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/graphql.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/graphql.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +171,8 @@
       <option name="presentableId" value="Default" />
       <updated>1587041351039</updated>
       <workItem from="1587041354332" duration="20457000" />
-      <workItem from="1587142152464" duration="1557000" />
+      <workItem from="1587142152464" duration="1946000" />
+      <workItem from="1587149227764" duration="700000" />
     </task>
     <servers />
   </component>
@@ -192,10 +192,10 @@
       <screen x="0" y="25" width="1366" height="743" />
     </state>
     <state x="519" y="211" width="318" height="366" key="FileChooserDialogImpl/0.25.1366.743@0.25.1366.743" timestamp="1587050876718" />
-    <state x="458" y="237" width="451" height="315" key="NewPhpClassDialog" timestamp="1587055092455">
+    <state x="458" y="237" width="457" height="315" key="NewPhpClassDialog" timestamp="1587149365332">
       <screen x="0" y="25" width="1366" height="743" />
     </state>
-    <state x="458" y="237" width="451" height="315" key="NewPhpClassDialog/0.25.1366.743@0.25.1366.743" timestamp="1587055092455" />
+    <state x="458" y="237" width="457" height="315" key="NewPhpClassDialog/0.25.1366.743@0.25.1366.743" timestamp="1587149365332" />
     <state x="311" y="147" width="734" height="494" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1587050522222">
       <screen x="0" y="25" width="1366" height="743" />
     </state>
