@@ -137,6 +137,7 @@ return [
         'User' => App\GraphQL\Types\UserType::class,
         'Bit' => App\GraphQL\Types\BitType::class,
         'Reply' => App\GraphQL\Types\ReplyType::class,
+        Rebing\GraphQL\Support\UploadType::class,
     ],
 
     // The types will be loaded on demand. Default is to load all types on each request
