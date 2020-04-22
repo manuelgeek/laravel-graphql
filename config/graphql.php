@@ -112,6 +112,7 @@ return [
                 'likeBit' => App\GraphQL\Mutation\LikeBitMutation::class,
                 'unlikeBit' => App\GraphQL\Mutation\UnlikeBitMutation::class,
                 'logOut' => App\GraphQL\Mutation\LogoutMutation::class,
+                'UpdateUserProfilePhoto' => App\GraphQL\Mutation\UserProfilePhotoMutation::class,
             ],
             'middleware' => ['auth:api'],
         ],
