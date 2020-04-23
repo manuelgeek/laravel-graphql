@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6bd0447-7e85-48a5-abd6-30040c83ac06" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/GraphQL/Mutation/UserProfilePhotoMutation.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/GraphQL/Mutation/UserProfilePhotoMutation.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/GraphQL/Types/UserType.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/GraphQL/Types/UserType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/avatar/filepng.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,7 +185,7 @@
       <workItem from="1587376773653" duration="286000" />
       <workItem from="1587463843728" duration="9920000" />
       <workItem from="1587553558345" duration="13517000" />
-      <workItem from="1587645258254" duration="349000" />
+      <workItem from="1587645258254" duration="4548000" />
     </task>
     <servers />
   </component>
@@ -206,10 +209,10 @@
       <screen x="0" y="25" width="1366" height="743" />
     </state>
     <state x="519" y="211" width="318" height="366" key="FileChooserDialogImpl/0.25.1366.743@0.25.1366.743" timestamp="1587050876718" />
-    <state x="458" y="237" width="457" height="315" key="NewPhpClassDialog" timestamp="1587485844630">
+    <state x="458" y="237" width="457" height="315" key="NewPhpClassDialog" timestamp="1587655283298">
       <screen x="0" y="25" width="1366" height="743" />
     </state>
-    <state x="458" y="237" width="457" height="315" key="NewPhpClassDialog/0.25.1366.743@0.25.1366.743" timestamp="1587485844630" />
+    <state x="458" y="237" width="457" height="315" key="NewPhpClassDialog/0.25.1366.743@0.25.1366.743" timestamp="1587655283298" />
     <state x="311" y="147" width="734" height="494" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1587050522222">
       <screen x="0" y="25" width="1366" height="743" />
     </state>

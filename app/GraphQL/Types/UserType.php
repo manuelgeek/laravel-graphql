@@ -4,6 +4,7 @@
 namespace App\GraphQL\Types;
 
 
+use App\GraphQL\Fields\ImageFields;
 use GraphQL\Type\Definition\Type;
 use Rebing\GraphQL\Support\Facades\GraphQL;
 use Rebing\GraphQL\Support\Type as GraphQLType;
@@ -30,10 +31,7 @@ class UserType extends GraphQLType
                 'type' => Type::nonNull(Type::string()),
                 'description' => 'The email address of a user'
             ],
-            'avatar' => [
-                'type' => Type::string(),
-                'description' => 'The avatar of a user'
-            ],
+            'avatar' => ImageFields::class,
             'bits' => [
                 'type' => Type::listOf(GraphQL::type('Bit')),
                 'description' => 'The user bits'

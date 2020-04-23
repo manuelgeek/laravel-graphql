@@ -38,10 +38,10 @@ class UserProfilePhotoMutation extends Mutation
     {
         $file = $args['profilePicture'];
 
-        $folder = '/upload/avatar';
+        $folder = '/upload/avatar/';
         $user = Auth::user();
         $user->avatar =  (new FileUploads())->updateImage($file, $user->avatar, $folder);
         $user->save();
-        return response()->json([Auth::user()]);
+        return Auth::user();
     }
 }
