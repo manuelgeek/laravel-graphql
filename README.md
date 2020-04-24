@@ -128,6 +128,24 @@ http://localhost:8000/graphql
 
 ```
 
+### 4. Update Avatar
+http://localhost:8000/graphql
+#### Request 
+
+```
+mutation($file: Upload!) 
+{ UpdateUserProfilePhoto(profilePicture: $file)
+    {
+     id,
+     name,
+     avatar,
+     email,
+     api_token
+    } 
+}
+```
+
+
 
 ## Resources
 

@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6bd0447-7e85-48a5-abd6-30040c83ac06" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/GraphQL/Mutation/UserProfilePhotoMutation.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/GraphQL/Mutation/UserProfilePhotoMutation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/GraphQL/Types/UserType.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/GraphQL/Types/UserType.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/upload/avatar/filepng.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +182,9 @@
       <workItem from="1587376773653" duration="286000" />
       <workItem from="1587463843728" duration="9920000" />
       <workItem from="1587553558345" duration="13517000" />
-      <workItem from="1587645258254" duration="4548000" />
+      <workItem from="1587645258254" duration="6448000" />
+      <workItem from="1587722318022" duration="1172000" />
+      <workItem from="1587731635362" duration="558000" />
     </task>
     <servers />
   </component>
