@@ -1,4 +1,4 @@
-<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
+<p align="center"><img src="https://magak.me/assets/images/Geek-logo.png" width="300"></p>
 
 
 
@@ -22,6 +22,13 @@ php artisan migrate
 php artisan serve
 
 ```
+
+## Features 
+* Register
+* Login
+* Update Avatar
+* CRUD
+* Pagination
 
 ## Sample Urls
 
