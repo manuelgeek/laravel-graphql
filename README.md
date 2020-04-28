@@ -1,4 +1,4 @@
-<p align="center"><img src="https://magak.me/assets/images/Geek-logo.png" width="300"></p>
+<p align="center"><img src="https://magak.me/assets/images/Geek-logo.png" width="150"></p>
 
 
 
