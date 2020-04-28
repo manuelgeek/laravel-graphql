@@ -1,8 +1,6 @@
 <?php
 
-
 namespace App\GraphQL\Queries;
-
 
 use App\Wine;
 use Closure;
@@ -29,12 +27,12 @@ class WinesQuery extends Query
             'limit' => [
                 'name' => 'limit',
                 'type' => Type::int(),
-                'rules' => ['required']
+                'rules' => ['required'],
             ],
             'page' => [
                 'name' => 'page',
                 'type' => Type::int(),
-                'rules' => ['required']
+                'rules' => ['required'],
             ],
         ];
     }
@@ -42,6 +40,7 @@ class WinesQuery extends Query
     public function resolve($root, $args, $context, ResolveInfo $info, Closure $getSelectFields)
     {
         $fields = $getSelectFields();
+
         return Wine::select($fields->getSelect())
         ->paginate($args['limit'], ['*'], 'page', $args['page']);
     }

@@ -1,19 +1,17 @@
 <?php
 
-
 namespace App\GraphQL\Mutation;
 
-
-use GraphQL;
 use App\Bit;
 use App\Reply;
+use GraphQL;
 use GraphQL\Type\Definition\Type;
 use Rebing\GraphQL\Support\Mutation;
 
 class ReplyBitMutation extends Mutation
 {
     protected $attributes = [
-        'name' => 'replyBit'
+        'name' => 'replyBit',
     ];
 
     public function type(): Type
@@ -39,7 +37,7 @@ class ReplyBitMutation extends Mutation
 
     public function authenticated($root, $args, $currentUser)
     {
-        return !!$currentUser;
+        return (bool) $currentUser;
     }
 
     public function resolve($root, $args)

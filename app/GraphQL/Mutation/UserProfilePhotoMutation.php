@@ -1,8 +1,6 @@
 <?php
 
-
 namespace App\GraphQL\Mutation;
-
 
 use App\Helpers\FileUploads;
 use Closure;
@@ -15,7 +13,7 @@ use Rebing\GraphQL\Support\Mutation;
 class UserProfilePhotoMutation extends Mutation
 {
     protected $attributes = [
-        'name' => 'UpdateUserProfilePhoto'
+        'name' => 'UpdateUserProfilePhoto',
     ];
 
     public function type(): Type
@@ -40,8 +38,9 @@ class UserProfilePhotoMutation extends Mutation
 
         $folder = '/upload/avatar/';
         $user = Auth::user();
-        $user->avatar =  (new FileUploads())->updateImage($file, $user->avatar, $folder);
+        $user->avatar = (new FileUploads())->updateImage($file, $user->avatar, $folder);
         $user->save();
+
         return Auth::user();
     }
 }

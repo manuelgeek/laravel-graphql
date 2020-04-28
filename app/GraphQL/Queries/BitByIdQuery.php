@@ -1,18 +1,16 @@
 <?php
 
-
 namespace App\GraphQL\Queries;
 
-
-use GraphQL;
 use App\Bit;
+use GraphQL;
 use GraphQL\Type\Definition\Type;
 use Rebing\GraphQL\Support\Query;
 
 class BitByIdQuery extends Query
 {
     protected $attributes = [
-        'name' => 'bitById'
+        'name' => 'bitById',
     ];
 
     public function type(): Type
@@ -26,14 +24,14 @@ class BitByIdQuery extends Query
             'id' => [
                 'name' => 'id',
                 'type' => Type::nonNull(Type::int()),
-                'rules' => ['required']
+                'rules' => ['required'],
             ],
         ];
     }
 
     public function resolve($root, $args)
     {
-        if (!$bit = Bit::find($args['id'])) {
+        if (! $bit = Bit::find($args['id'])) {
             throw new \Exception('Resource not found');
         }
 

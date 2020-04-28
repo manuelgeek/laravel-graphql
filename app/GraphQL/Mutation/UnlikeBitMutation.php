@@ -1,8 +1,6 @@
 <?php
 
-
 namespace App\GraphQL\Mutation;
-
 
 use App\Like;
 use GraphQL\Type\Definition\Type;
@@ -11,7 +9,7 @@ use Rebing\GraphQL\Support\Mutation;
 class UnlikeBitMutation extends Mutation
 {
     protected $attributes = [
-        'name' => 'unlikeBit'
+        'name' => 'unlikeBit',
     ];
 
     public function type(): Type
@@ -32,7 +30,7 @@ class UnlikeBitMutation extends Mutation
 
     public function authenticated($root, $args, $currentUser)
     {
-        return !!$currentUser;
+        return (bool) $currentUser;
     }
 
     public function resolve($root, $args)

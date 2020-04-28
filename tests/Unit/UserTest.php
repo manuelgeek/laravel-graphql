@@ -2,14 +2,12 @@
 
 namespace Tests\Unit;
 
-
 use Illuminate\Foundation\Testing\TestCase;
 use Tests\CreatesApplication;
 
 class UserTest extends TestCase
 {
     use CreatesApplication;
-
 
     public function testUserCreateAccount()
     {
@@ -32,17 +30,15 @@ GRAPHQL;
         ])->json();
 
         $expected = [
-            'data' =>
-                [
-                    'signUp' =>
-                        [
-                            'email' => '1123@test.com',
-                            'name' => 'tester',
-                        ],
+            'data' => [
+                'signUp' => [
+                    'email' => '1123@test.com',
+                    'name' => 'tester',
                 ],
+            ],
         ];
         unset($result['errors'][0]['trace']);
-        $this->assertSame( $result, $expected);
+        $this->assertSame($result, $expected);
     }
 
     public function testUserRegisterValidationError()
@@ -67,19 +63,19 @@ GRAPHQL;
             'query' => $graphql,
         ])->json();
 
-        $expected = ['errors' => Array  (
-            0 => Array  (
+        $expected = ['errors' => [
+            0 => [
                 'message' => 'validation',
-                'extensions' => Array  (
+                'extensions' => [
                     'category' => 'validation',
-                    'validation' => Array  (
-                        'password' => Array  (
-                            0 => 'The password must be at least 6 characters.'
-                        )
-                    )
-                ),
-            )
-        )];
+                    'validation' => [
+                        'password' => [
+                            0 => 'The password must be at least 6 characters.',
+                        ],
+                    ],
+                ],
+            ],
+        ]];
 
         unset($result['errors'][0]['trace']);
         $this->assertArraySubset($expected, $result);

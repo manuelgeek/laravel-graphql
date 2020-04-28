@@ -1,19 +1,17 @@
 <?php
 
-
 namespace App\GraphQL\Mutation;
 
-
+use App\User;
 use GraphQL\Type\Definition\Type;
 use Illuminate\Support\Facades\Auth;
 use Rebing\GraphQL\Support\Facades\GraphQL;
 use Rebing\GraphQL\Support\Mutation;
-use App\User;
 
 class SignUpMutation extends Mutation
 {
     protected $attributes = [
-        'name' => 'signUp'
+        'name' => 'signUp',
     ];
 
     public function type(): Type
@@ -55,12 +53,14 @@ class SignUpMutation extends Mutation
         ]);
 
         // generate token for user and return the token
-        if($user){
-            Auth::attempt([ 'email' => $args['email'], 'password' => $args['password'] ]);
+        if ($user) {
+            Auth::attempt(['email' => $args['email'], 'password' => $args['password']]);
 
             Auth::user()->generateToken();
+
             return Auth::user();
         }
-        return "Error";
+
+        return 'Error';
     }
 }

@@ -2,11 +2,6 @@
 
 declare(strict_types=1);
 
-use example\Mutation\ExampleMutation;
-use example\Query\ExampleQuery;
-use example\Type\ExampleRelationType;
-use example\Type\ExampleType;
-
 return [
 
     // The prefix for routes
@@ -120,8 +115,8 @@ return [
             'mutation' => [
                 'signUp' => App\GraphQL\Mutation\SignUpMutation::class,
                 'logIn' => App\GraphQL\Mutation\LogInMutation::class,
-            ]
-        ]
+            ],
+        ],
     ],
 
     // The types available in the application. You can then access it from the
