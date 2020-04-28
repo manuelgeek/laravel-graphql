@@ -8,7 +8,7 @@
  
  ## Set up 
  
- Clone the project  then;
+ Fork and Clone the project  then;
  
  ```bash
 composer install
@@ -170,3 +170,6 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=for-the-badge)](#)
 
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source-200x33.png?v=103)](#)
+
+
+Happy coding, Star then Fork 😊💪💯
