@@ -1,22 +1,20 @@
 <?php
 
-
 namespace App\GraphQL\Queries;
 
-
-use GraphQL;
 use App\Bit;
+use GraphQL;
+use GraphQL\Type\Definition\ResolveInfo;
 use GraphQL\Type\Definition\Type;
 use Rebing\GraphQL\Support\Query;
-use GraphQL\Type\Definition\ResolveInfo;
 
 class AllBitsQuery extends Query
 {
     protected $attributes = [
-        'name' => 'allBits'
+        'name' => 'allBits',
     ];
 
-    public function type() : Type
+    public function type(): Type
     {
         return Type::listOf(GraphQL::type('Bit'));
     }

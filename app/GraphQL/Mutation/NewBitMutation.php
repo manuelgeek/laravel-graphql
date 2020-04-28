@@ -1,12 +1,10 @@
 <?php
 
-
 namespace App\GraphQL\Mutation;
 
-
+use App\Bit;
 use Closure;
 use GraphQL;
-use App\Bit;
 use GraphQL\Type\Definition\ResolveInfo;
 use GraphQL\Type\Definition\Type;
 use Illuminate\Support\Facades\Auth;
@@ -15,10 +13,10 @@ use Rebing\GraphQL\Support\Mutation;
 class NewBitMutation extends Mutation
 {
     protected $attributes = [
-        'name' => 'newBit'
+        'name' => 'newBit',
     ];
 
-    public function type():Type
+    public function type(): Type
     {
         return GraphQL::type('Bit');
     }

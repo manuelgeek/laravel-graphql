@@ -1,6 +1,5 @@
 <?php
 
-
 namespace App\GraphQL\Fields;
 
 use GraphQL\Type\Definition\Type;
@@ -22,7 +21,7 @@ class ImageFields extends Field
         return [
             'avatar' => [
                 'type' => Type::string(),
-                'description' => 'The full path'
+                'description' => 'The full path',
             ],
         ];
     }
@@ -30,6 +29,7 @@ class ImageFields extends Field
     protected function resolve($root, $args)
     {
         $avatar = $root->{$this->attributes['name']};
-       return $avatar != null ? asset($avatar) : null;
+
+        return $avatar != null ? asset($avatar) : null;
     }
 }

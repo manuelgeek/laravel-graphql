@@ -58,5 +58,4 @@ class UserProfilePhotoUploadTest extends TestCase
         ];
         $this->assertArraySubset($expectedResult, $result);
     }
-
 }

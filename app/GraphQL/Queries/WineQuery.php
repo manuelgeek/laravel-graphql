@@ -1,8 +1,6 @@
 <?php
 
-
 namespace App\GraphQL\Queries;
-
 
 use App\Wine;
 use GraphQL\Type\Definition\Type;
@@ -26,7 +24,7 @@ class WineQuery extends Query
             'id' => [
                 'name' => 'id',
                 'type' => Type::int(),
-                'rules' => ['required']
+                'rules' => ['required'],
             ],
         ];
     }

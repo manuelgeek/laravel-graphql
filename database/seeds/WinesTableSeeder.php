@@ -17,7 +17,7 @@ class WinesTableSeeder extends Seeder
             'description' => 'A medium-bodied wine characterized by a marvelous freshness with a lingering, fruity finish',
             'color' => 'red',
             'grape_variety' => 'Sangiovese',
-            'country' => 'Italy'
+            'country' => 'Italy',
         ]);
 
         Wine::create([
@@ -25,7 +25,7 @@ class WinesTableSeeder extends Seeder
             'description' => 'A wine with fruit scents and flavors of blackberry, dark cherry, vanilla, coffee bean, and licorice. The wines are often concentrated, powerful, firm and tannic',
             'color' => 'red',
             'grape_variety' => 'Merlot',
-            'country' => 'France'
+            'country' => 'France',
         ]);
 
         Wine::create([
@@ -33,7 +33,7 @@ class WinesTableSeeder extends Seeder
             'description' => 'Often abbreviated as White Zin, it is a dry to sweet wine, pink-colored rosé',
             'color' => 'rosé',
             'grape_variety' => 'Zinfandel',
-            'country' => 'USA'
+            'country' => 'USA',
         ]);
 
         Wine::create([
@@ -41,7 +41,7 @@ class WinesTableSeeder extends Seeder
             'description' => 'A fortified sweet red wine, often served as a dessert wine',
             'color' => 'red',
             'grape_variety' => 'Touriga Nacional',
-            'country' => 'Portugal'
+            'country' => 'Portugal',
         ]);
 
         Wine::create([
@@ -49,7 +49,7 @@ class WinesTableSeeder extends Seeder
             'description' => 'It is a dry white wine (brut) sometimes with a sweet flavor of green apple, honeydew melon, pear, and honeysuckle',
             'color' => 'white',
             'grape_variety' => 'Glera',
-            'country' => 'Italy'
+            'country' => 'Italy',
         ]);
     }
 }

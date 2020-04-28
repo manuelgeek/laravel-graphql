@@ -1,6 +1,5 @@
 <?php
 
-
 namespace App\GraphQL\Types;
 
 use App\Wine;
@@ -12,7 +11,7 @@ class WineType extends GraphQLType
     protected $attributes = [
         'name' => 'Wine',
         'description' => 'Details about a wine',
-        'model' => Wine::class
+        'model' => Wine::class,
     ];
 
     public function fields(): array
@@ -41,7 +40,7 @@ class WineType extends GraphQLType
             'country' => [
                 'type' => Type::nonNull(Type::string()),
                 'description' => 'The country of origin of the wine',
-            ]
+            ],
         ];
     }
 }

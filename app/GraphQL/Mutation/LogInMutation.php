@@ -1,8 +1,6 @@
 <?php
 
-
 namespace App\GraphQL\Mutation;
-
 
 use GraphQL\Type\Definition\Type;
 use Illuminate\Support\Facades\Auth;
@@ -12,7 +10,7 @@ use Rebing\GraphQL\Support\Mutation;
 class LogInMutation extends Mutation
 {
     protected $attributes = [
-        'name' => 'logIn'
+        'name' => 'logIn',
     ];
 
     public function type(): Type
@@ -40,17 +38,17 @@ class LogInMutation extends Mutation
     {
         $credentials = [
             'email' => $args['email'],
-            'password' => $args['password']
+            'password' => $args['password'],
         ];
 
-        if($auth = Auth::attempt($credentials)){
+        if ($auth = Auth::attempt($credentials)) {
             Auth::user()->generateToken();
+
             return Auth::user();
         }
 
-        if (!$auth) {
+        if (! $auth) {
             throw new \Exception('Unauthorized!');
         }
-
     }
 }

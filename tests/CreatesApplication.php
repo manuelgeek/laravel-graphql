@@ -26,11 +26,13 @@ trait CreatesApplication
         parent::setUp();
         $this->prepareForTests();
     }
+
     private function prepareForTests()
     {
         Artisan::call('migrate');
         Artisan::call('db:seed');
     }
+
     public function tearDown(): void
     {
         parent::tearDown();
