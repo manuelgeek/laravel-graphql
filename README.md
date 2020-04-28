@@ -1,6 +1,8 @@
 <p align="center"><img src="https://magak.me/assets/images/Geek-logo.png" width="150"></p>
 
-
+![badge](https://github.com/manuelgeek/laravel-graphql/workflows/Laravel/badge.svg)
+[![StyleCI](https://github.styleci.io/repos/256302652/shield?branch=master)](https://github.styleci.io/repos/256302652)
+<!-- https://img.shields.io/github/workflow/status/manuelgeek/laravel-graphql/Laravel -->
 
 ## About Laravel GraphQL
 
