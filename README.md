@@ -4,7 +4,7 @@
 
 ## About Laravel GraphQL
 
- This is a sample Laravel project to illustrate API creation using GraphQL using [grapgql-laravel](https://github.com/rebing/graphql-laravel) package
+ This is a sample Laravel Project to illustrate API creation using GraphQL using [grapgql-laravel](https://github.com/rebing/graphql-laravel) package
  
  ## Set up 
  
